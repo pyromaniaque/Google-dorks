@@ -40,7 +40,7 @@ Especially useful when searching for open directories and system panels
 ### filetype:
 filetype:pdf - Limits search results to files of a specific type (extension).
 
-Examples:
+**Examples:**
 site:gov.ru filetype:pdf — searches for PDF documents on gov.ru domains
 filetype:log password — searches for text log files containing the word “password”
 
@@ -52,9 +52,9 @@ filetype:conf site:example.com
 
 ### `cache:`
 
-cache:example.com - Allows you to view the cached (saved) Google version of the page.
+**cache:example.com** - Allows you to view the cached (saved) Google version of the page.
 
-Examples:
+**Examples:**
 cache:example.com — shows what the site looked like when Google last cached it
 cache:example.com/login — cache of the login page
 
