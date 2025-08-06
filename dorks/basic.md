@@ -2,7 +2,9 @@
 
 ## site:
 
-site:example.com - Limits the search to only one site or domain.
+Limits the search to only one site or domain.
+```Dorks
+site:example.com```
 
 **Examples:**
 
