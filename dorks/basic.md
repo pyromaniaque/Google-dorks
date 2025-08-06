@@ -66,12 +66,10 @@ Used when analyzing changes on a page (for example, when a vulnerability has bee
 ## Combining operators
 Examples:
 ```Dorks
-site:example.com inurl:admin intitle:"login" filetype:php```
+site:example.com inurl:admin intitle:"login" filetype:php
 
-```Dorks
 site:*.edu filetype:xls password```
 
-```Dorks
 inurl:".git" intitle:"index of"```
 
 
