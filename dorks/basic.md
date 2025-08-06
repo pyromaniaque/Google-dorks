@@ -1,5 +1,6 @@
 ## Basic Google Dorks Operators
-### site:
+
+## site:
 
 site:example.com - Limits the search to only one site or domain.
 
@@ -14,7 +15,7 @@ We search for public documents or authorization panels only on the target websit
 site:example.com inurl:admin
 
 
-### inurl:
+## inurl:
 inurl:admin - Searches for a word or fragment of a URL in the address bar of the page
 
 **Examples:**
@@ -29,7 +30,7 @@ inurl:wp-admin
 inurl:index.of
 
 
-### intitle:
+## intitle:
 intitle:"index of" - Searches for a word in the page title (in the HTML <title> tag).
 
 **Examples:**
@@ -41,7 +42,7 @@ Application in information security:
 Especially useful when searching for open directories and system panels
 
 
-### filetype:
+## filetype:
 **filetype:pdf** - Limits search results to files of a specific type (extension).
 
 **Examples:**
