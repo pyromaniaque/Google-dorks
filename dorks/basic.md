@@ -1,8 +1,10 @@
 ## Basic Google Dorks Operators
 ### site:
+
 site:example.com - Limits the search to only one site or domain.
 
-Examples: 
+**Examples:**
+
 site:gov.ru — searches only on .gov.ru domains
 
 site:example.com login — searches for pages with the word “login” on the example.com website
@@ -15,7 +17,8 @@ site:example.com inurl:admin
 ### inurl:
 inurl:admin - Searches for a word or fragment of a URL in the address bar of the page
 
-examples: 
+**Examples:**
+
 inurl:login — pages whose URL contains “login”
 site:example.com inurl:config — search for configuration files on example.com
 
@@ -29,7 +32,8 @@ inurl:index.of
 ### intitle:
 intitle:"index of" - Searches for a word in the page title (in the HTML <title> tag).
 
-Examples: 
+**Examples:**
+
 intitle:“index of” — searches for open directories
 intitle:login site:example.com — searches for login pages on the specified website
 
@@ -41,6 +45,7 @@ Especially useful when searching for open directories and system panels
 **filetype:pdf** - Limits search results to files of a specific type (extension).
 
 **Examples:**
+
 site:gov.ru filetype:pdf — searches for PDF documents on gov.ru domains
 filetype:log password — searches for text log files containing the word “password”
 
