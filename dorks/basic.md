@@ -24,6 +24,7 @@ site:example.com inurl:admin
 **Examples:**
 
 **`inurl:login`** — pages whose URL contains “login”
+
 **`site:example.com`** inurl:config — search for configuration files on example.com
 
 - **Application in information security:**
@@ -31,6 +32,7 @@ site:example.com inurl:admin
 Often used to search for control panels, login pages, open directories:
 
 **`inurl:wp-admin`**
+
 **`inurl:index.of`**
 
 
@@ -40,6 +42,7 @@ Often used to search for control panels, login pages, open directories:
 **Examples:**
 
 **`intitle:“index of”`** — searches for open directories
+
 **`intitle:login site:example.com`** — searches for login pages on the specified website
 
 - **Application in information security:**
@@ -53,13 +56,16 @@ Especially useful when searching for open directories and system panels
 **Examples:**
 
 **`site:gov.ru filetype:pdf`** — searches for PDF documents on gov.ru domains
+
 **`filetype:log password`** — searches for text log files containing the word “password”
 
 - **Application in information security:**
 
 Search for leaks in the form of .log, .txt, .csv, .xls, .conf, .sql:
-filetype:sql "insert into"
-filetype:conf site:example.com
+
+**`filetype:sql "insert into"`**
+
+**`filetype:conf site:example.com`**
 
 
 ## cache:
