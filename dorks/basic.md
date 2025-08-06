@@ -12,7 +12,7 @@ Limits the search to only one site or domain.
 
 **`site:example.com login`** — searches for pages with the word “login” on the example.com website
 
-Application in information security:
+- Application in information security:
 
 We search for public documents or authorization panels only on the target website:
 site:example.com inurl:admin
@@ -26,7 +26,7 @@ site:example.com inurl:admin
 **`inurl:login`** — pages whose URL contains “login”
 **`site:example.com`** inurl:config — search for configuration files on example.com
 
-Application in information security:
+- Application in information security:
 
 Often used to search for control panels, login pages, open directories:
 
@@ -42,7 +42,7 @@ Often used to search for control panels, login pages, open directories:
 **`intitle:“index of”`** — searches for open directories
 **`intitle:login site:example.com`** — searches for login pages on the specified website
 
-Application in information security:
+- Application in information security:
 
 Especially useful when searching for open directories and system panels
 
@@ -55,7 +55,7 @@ Especially useful when searching for open directories and system panels
 **`site:gov.ru filetype:pdf`** — searches for PDF documents on gov.ru domains
 **`filetype:log password`** — searches for text log files containing the word “password”
 
-Application in information security:
+- Application in information security:
 
 Search for leaks in the form of .log, .txt, .csv, .xls, .conf, .sql:
 filetype:sql "insert into"
@@ -71,7 +71,7 @@ filetype:conf site:example.com
 
 **`cache:example.com/login`** — cache of the login page
 
-Application in information security:
+- Application in information security:
 
 Viewing deleted or temporarily unavailable information
 
