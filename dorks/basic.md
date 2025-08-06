@@ -65,8 +65,8 @@ Used when analyzing changes on a page (for example, when a vulnerability has bee
 
 ## Combining operators
 Examples:
-`site:example.com inurl:admin intitle:"login" filetype:php`
-`site:*.edu filetype:xls password`
-`inurl:".git" intitle:"index of"`
+```site:example.com inurl:admin intitle:"login" filetype:php```
+```site:*.edu filetype:xls password```
+```inurl:".git" intitle:"index of"```
 
 
