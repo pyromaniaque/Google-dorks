@@ -98,7 +98,7 @@ By researchers — to find data leaks or interesting content.
 
 **Additional information about "inurl" operator**
 
-(inurl:wp-admin and inurl:index.of) are Google search operators used to find specific types of web pages. They are used, for example, in OSINT, information security, penetration testing, or even website administration.
+**(inurl:wp-admin and inurl:index.of)** are Google search operators used to find specific types of web pages. They are used, for example, in OSINT, information security, penetration testing, or even website administration.
 
 
 3. ## intitle:
