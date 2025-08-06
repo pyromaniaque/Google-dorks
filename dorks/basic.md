@@ -30,12 +30,12 @@ Shows all pages that Google has indexed on the example.com domain.
 
 Shows all websites ending in .gov.ru (e.g., minzdrav.gov.ru, kremlin.gov.ru, etc.)
 
-4. **This is used, for example:**
+**This is used, for example:**
 
 to analyze only government websites,
 to identify leaks, accessible documents, and reports.
 
-5. **site: does not always include subdomains**
+4. **site: does not always include subdomains**
 
 Although site:example.com may also return blog.example.com, if you only want the subdomain, write:
 
@@ -44,7 +44,9 @@ Although site:example.com may also return blog.example.com, if you only want the
 - **Application in information security:**
 
 We search for public documents or authorization panels only on the target website:
-site:example.com inurl:admin
+
+**`site:example.com`** 
+**`inurl:admin`**
 
 
 2. ## inurl:
