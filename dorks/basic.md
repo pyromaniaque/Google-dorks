@@ -68,8 +68,8 @@ Examples:
 ```Dorks
 site:example.com inurl:admin intitle:"login" filetype:php
 
-site:*.edu filetype:xls password```
+site:*.edu filetype:xls password
 
-inurl:".git" intitle:"index of"```
+inurl:".git" intitle:"index of"
 
 
