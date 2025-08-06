@@ -18,7 +18,7 @@ We search for public documents or authorization panels only on the target websit
 site:example.com inurl:admin
 
 
-## inurl:
+2. ## inurl:
 **`inurl:admin`** - Searches for a word or fragment of a URL in the address bar of the page
 
 **Examples:**
@@ -67,7 +67,7 @@ By researchers — to find data leaks or interesting content.
 (inurl:wp-admin and inurl:index.of) are Google search operators used to find specific types of web pages. They are used, for example, in OSINT, information security, penetration testing, or even website administration.
 
 
-## intitle:
+3. ## intitle:
 **`intitle:"index of"`** - Searches for a word in the page title (in the HTML <title> tag).
 
 **Examples:**
@@ -81,7 +81,7 @@ By researchers — to find data leaks or interesting content.
 Especially useful when searching for open directories and system panels
 
 
-## filetype:
+4. ## filetype:
 **`filetype:pdf`** - Limits search results to files of a specific type (extension).
 
 **Examples:**
@@ -99,7 +99,7 @@ Search for leaks in the form of .log, .txt, .csv, .xls, .conf, .sql:
 **`filetype:conf site:example.com`**
 
 
-## cache:
+5. ## cache:
 **`cache:example.com`** - Allows you to view the cached (saved) Google version of the page.
 
 **Examples:**
@@ -114,7 +114,7 @@ Viewing deleted or temporarily unavailable information
 
 Used when analyzing changes on a page (for example, when a vulnerability has been deleted but remains in the cache)
 
-## Combining operators
+6. ## Combining operators
 Examples:
 
 ```Dorks
