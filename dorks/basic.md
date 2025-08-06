@@ -57,7 +57,7 @@ We search for public documents or authorization panels only on the target websit
 
 **`inurl:login`** — pages whose URL contains “login”
 
-**`site:example.com`** inurl:config — search for configuration files on example.com
+**`site:example.com inurl:config`**  — search for configuration files on example.com
 
 - **Application in information security:**
 
@@ -84,7 +84,9 @@ This allows you to find open directories that are directly accessible via a brow
 **Examples of output:**
 
 `Index of /movies`
+
 `Index of /music`
+
 `Index of /backups`
 
 **What it is used for:**
