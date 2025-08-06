@@ -3,7 +3,8 @@
 ## site:
 
 Limits the search to only one site or domain.
-`site:example.com`
+
+**`site:example.com`**
 
 **Examples:**
 
