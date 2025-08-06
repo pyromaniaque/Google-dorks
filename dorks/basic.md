@@ -4,7 +4,7 @@
 
 The “site:” operator limits the search to only one specific site or domain, including all of its subdomains.
 
-1. **Syntax:** 
+**Syntax:** 
 
 **`site:domain query`**
 
@@ -16,13 +16,13 @@ search_query — what you are searching for within the specified domain
 
 Shows all pages that Google has indexed on the example.com domain.
 
-2. **Examples:**
+**Examples:**
 
 **`site:gov.ru`** — searches only on .gov.ru domains
 
 **`site:example.com login`** — searches for pages with the word “login” on the example.com website
 
-3. **Search by domain zone**
+**Search by domain zone**
 
 **_.TLD_**
 
@@ -35,7 +35,7 @@ Shows all websites ending in .gov.ru (e.g., minzdrav.gov.ru, kremlin.gov.ru, etc
 to analyze only government websites,
 to identify leaks, accessible documents, and reports.
 
-4. **site: does not always include subdomains**
+**site: does not always include subdomains**
 
 Although site:example.com may also return blog.example.com, if you only want the subdomain, write:
 
@@ -46,6 +46,7 @@ Although site:example.com may also return blog.example.com, if you only want the
 We search for public documents or authorization panels only on the target website:
 
 **`site:example.com`** 
+
 **`inurl:admin`**
 
 
@@ -99,9 +100,32 @@ By researchers — to find data leaks or interesting content.
 
 
 3. ## intitle:
-**`intitle:"index of"`** - Searches for a word in the page title (in the HTML <title> tag).
+
+The operator **intitle:“...”** is used in search engines (mainly Google) to find pages where the specified words or phrases appear in the title of the web page.
+
+**Syntax:**
+
+**`intitle:"word"`**
+
+What does it do?
+
+The intitle: operator forces the search engine to search only in the HTML document title, rather than the entire page content.
+
+The page title is what is inside the <title>...</title> tag and is usually displayed in the browser tab title and search results.
 
 **Examples:**
+
+- **Search for pages where the exact phrase is in the title:**
+
+**`intitle:"single word"`**
+
+will only find pages that contain the phrase single word in the title.
+
+- **Can be combined with ordinary words:**
+
+**`intitle:"using bash" cash`**
+
+will find pages where the title contains the phrase “using bash” and the text of the page contains the word “cash”.
 
 **`intitle:“index of”`** — searches for open directories
 
@@ -110,6 +134,12 @@ By researchers — to find data leaks or interesting content.
 - **Application in information security:**
 
 Especially useful when searching for open directories and system panels
+
+**Features:**
+
+Without quotation marks **(intitle:network attacks)**, **only the word “network”** will be found in the title, while **“attacks” can be anywhere**.
+
+To specify an exact phrase, always enclose it in quotation marks: intitle:“network attacks”.
 
 
 4. ## filetype:
