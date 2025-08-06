@@ -38,7 +38,7 @@ Especially useful when searching for open directories and system panels
 
 
 ### filetype:
-filetype:pdf - Limits search results to files of a specific type (extension).
+**filetype:pdf** - Limits search results to files of a specific type (extension).
 
 **Examples:**
 site:gov.ru filetype:pdf — searches for PDF documents on gov.ru domains
@@ -50,11 +50,12 @@ filetype:sql "insert into"
 filetype:conf site:example.com
 
 
-### `cache:`
+## cache:
 
 **cache:example.com** - Allows you to view the cached (saved) Google version of the page.
 
 **Examples:**
+
 cache:example.com — shows what the site looked like when Google last cached it
 cache:example.com/login — cache of the login page
 
@@ -65,6 +66,7 @@ Used when analyzing changes on a page (for example, when a vulnerability has bee
 
 ## Combining operators
 Examples:
+
 ```Dorks
 site:example.com inurl:admin intitle:"login" filetype:php
 
