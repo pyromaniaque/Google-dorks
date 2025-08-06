@@ -4,7 +4,7 @@
 
 The “site:” operator limits the search to only one specific site or domain, including all of its subdomains.
 
-**Syntax:** 
+1. **Syntax:** 
 
 **`site:domain query`**
 
@@ -16,24 +16,30 @@ search_query — what you are searching for within the specified domain
 
 Shows all pages that Google has indexed on the example.com domain.
 
-**Examples:**
+2. **Examples:**
 
 **`site:gov.ru`** — searches only on .gov.ru domains
 
 **`site:example.com login`** — searches for pages with the word “login” on the example.com website
 
-**Search by domain zone**
+3. **Search by domain zone**
 
-**.TLD**
+**_.TLD_**
 
 **`site:gov.ru`** 
 
 Shows all websites ending in .gov.ru (e.g., minzdrav.gov.ru, kremlin.gov.ru, etc.)
 
-**This is used, for example:**
+4. **This is used, for example:**
 
 to analyze only government websites,
 to identify leaks, accessible documents, and reports.
+
+5. **site: does not always include subdomains**
+
+Although site:example.com may also return blog.example.com, if you only want the subdomain, write:
+
+**`site:blog.example.com`**
 
 - **Application in information security:**
 
