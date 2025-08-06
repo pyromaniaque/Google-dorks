@@ -2,15 +2,38 @@
 
 1. ## site:
 
-Limits the search to only one site or domain.
+The “site:” operator limits the search to only one specific site or domain, including all of its subdomains.
+
+**Syntax:** 
+
+**`site:domain query`**
+
+site: — the operator itself
+domain — the website, zone, or subdomain to which the search is limited
+search_query — what you are searching for within the specified domain
 
 **`site:example.com`**
+
+Shows all pages that Google has indexed on the example.com domain.
 
 **Examples:**
 
 **`site:gov.ru`** — searches only on .gov.ru domains
 
 **`site:example.com login`** — searches for pages with the word “login” on the example.com website
+
+**Search by domain zone**
+
+**.TLD**
+
+**`site:gov.ru`** 
+
+Shows all websites ending in .gov.ru (e.g., minzdrav.gov.ru, kremlin.gov.ru, etc.)
+
+**This is used, for example:**
+
+to analyze only government websites,
+to identify leaks, accessible documents, and reports.
 
 - **Application in information security:**
 
