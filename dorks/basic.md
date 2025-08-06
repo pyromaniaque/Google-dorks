@@ -18,7 +18,7 @@ We search for public documents or authorization panels only on the target websit
 site:example.com inurl:admin
 
 
-## inurl:
+## - inurl:
 **`inurl:admin`** - Searches for a word or fragment of a URL in the address bar of the page
 
 **Examples:**
