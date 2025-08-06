@@ -68,6 +68,7 @@ filetype:conf site:example.com
 **Examples:**
 
 **`cache:example.com`** — shows what the site looked like when Google last cached it
+
 **`cache:example.com/login`** — cache of the login page
 
 Application in information security:
